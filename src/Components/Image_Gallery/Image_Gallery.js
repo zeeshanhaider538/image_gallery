@@ -758,18 +758,13 @@ function Image_Gallery() {
         });
   return (
     <div>
-        
-        <div class="loading">
-        <div class="loading-container">
-            <p class="counter"></p>
-            <div class="line"></div>
+        <div className="loading">
+        <div className="loading-container">
+            <p className="counter"></p>
+            <div className="line"></div>
         </div>
         </div>
-        <div class="body-container">
-        <div class="box">
-            <h1>Gallery Example</h1>
-            <p>Pictures from Unsplash</p>
-        </div>
+        <div className="body-container">
         </div>
 
     </div>
